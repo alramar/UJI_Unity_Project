@@ -3424,6 +3424,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1533056466 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1224409716444138321, guid: 8f78d50bd49f85246b836b189f596ddd, type: 3}
+  m_PrefabInstance: {fileID: 1224409715273912851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1533056472
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533056466}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b77822e0485373d40b5beb92e9a5e728, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1574166499
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3834,10 +3858,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ruby
       objectReference: {fileID: 0}
+    - target: {fileID: 1224409716444138321, guid: 8f78d50bd49f85246b836b189f596ddd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1224409716444138326, guid: 8f78d50bd49f85246b836b189f596ddd, type: 3}
       propertyPath: speed
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 1224409716444138326, guid: 8f78d50bd49f85246b836b189f596ddd, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 3515307788124679331, guid: 8871d6014067c1241bce248482b903ea, type: 3}
     - target: {fileID: 1224409716444138327, guid: 8f78d50bd49f85246b836b189f596ddd, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -4159,6 +4191,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3727900466909608079, guid: b8b860d4d038cb24295e7916ed60174c, type: 3}
+      propertyPath: vertical
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6353330887641511713, guid: b8b860d4d038cb24295e7916ed60174c, type: 3}
       propertyPath: m_RootOrder
       value: 32
